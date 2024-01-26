@@ -9,8 +9,27 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0%;
+  margin: 0%;
 }
 /**!heder**/
+.container {
+  width: 1158;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid#E7E9FC;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -19,9 +38,14 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 .nav-link {
   color: #2e2f42;
@@ -29,17 +53,21 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
-.nav-link:hover {
-  color: #404bbf;
-}
-
+.nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-link {
