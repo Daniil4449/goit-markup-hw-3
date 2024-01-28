@@ -142,7 +142,7 @@ ol {
 
 .benefits {
   color: #fff;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -175,6 +175,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -190,7 +191,7 @@ ol {
 
 .our-team {
   background-color: #f4f4fd;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -303,7 +304,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 .footer-logo-part {
   color: #f4f4fd;
