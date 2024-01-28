@@ -217,6 +217,7 @@ img {
 
 .our-team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-picture {
